@@ -1,3 +1,4 @@
+"use client";
 import { VenueJson, VenueItem } from "../interface";
 import Card from "./Card";
 import Link from "next/link";
