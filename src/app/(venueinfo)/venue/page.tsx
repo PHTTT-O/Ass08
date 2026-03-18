@@ -1,9 +1,9 @@
 import getVenues from "@/libs/getVenues";
 import VenueCatalog from "@/components/VenueCatalog";
 
-export default function VenuePage() {
+export default async function VenuePage() {
 
-  const venues = getVenues();
+  const venues = await getVenues();
 
   return (
     <main>
